@@ -44,6 +44,6 @@ To run the inference, execute the function `main_inference` in `main.py`:
 
 To plot the results, run the function `main_plotting` in `main.py`:
 
-Because the functions run in parallel, make sure the address of nw_reroot, nw_ed, result_addr, and FastSP are correctly set in the functions run_iqtree_bootstrap, run_iqtree, and run_mafft.
+Because the functions run in parallel, make sure the address of `nw_reroot`, `nw_ed`, `result_addr`, and `FastSP` are correctly set in the functions `run_iqtree_bootstrap`, `run_iqtree`, and `run_mafft`.
 
-The final_result.csv, which is a CSV file containing all the results, along with all the generated plots, can be found in the /results folder.
+The final_result.csv, which is a CSV file containing all the results, along with all the generated plots, can be found in the /`result`s folder.
