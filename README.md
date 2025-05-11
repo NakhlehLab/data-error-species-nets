@@ -21,6 +21,12 @@ Make sure all executables are installed and their paths are added to your `$PATH
 
 ### Setup Instructions
 
+To install all required Python packages, run the following command from the project directory:
+
+```bash
+pip install -r requirements.txt
+```
+
 You need to configure the script to point to the correct locations of the required tools. In `generate_data.py`, set the `root_folder` variable to the absolute path containing the tool directories and files. Then, make sure the following paths are correctly set:
 
 ```python
