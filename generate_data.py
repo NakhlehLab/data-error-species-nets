@@ -292,20 +292,16 @@ def analysis_sequences(msa):
 
 if __name__ == '__main__':
     scenarios = ["s0_0_ret", "s1_1_ret_down", "s4_2_ret_cross"]
-    scenarios = ["s0_0_ret"] ####
     num_tip_lst = [6]
     numbsim =  10
-    numbsim = 1 ####
     start_replica = 0
     POWER_LAW_PARAMETER = 1.5
     INDEL_LENGTH = 5
     ALPHA_heterogeneity = 0.4
     INDEL_RATE_LST = [0, 0.05, 0.1]
     num_gt_lst = [100, 250, 500]
-    num_gt_lst = [100] ####
     error_rate_lst = [0.01, 0.1]
     sites_per_gt_lst = [200, 500, 1000]
-    sites_per_gt_lst = [200] ####
 
     root_folder = "/shared/mt100/6_book_chapter_final/"
     indelible_control_folder = root_folder + "INDELibleV1.03/"
