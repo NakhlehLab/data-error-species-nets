@@ -19,6 +19,13 @@ Before using the script, make sure the following tools are installed and accessi
 
 Make sure all executables are installed and their paths are added to your `$PATH`, or adjust your script accordingly.
 
+
+### Note on `phylonet.jar` Usage
+
+This repository includes a custom `PhyloNet.jar` file that should be used instead of the official release. The original version of PhyloNet does not support computing the pseudo-likelihood of a true species tree given a set of gene trees, which is required for our experiments.
+
+Make sure to use the provided `PhyloNet.jar` to ensure compatibility with all scripts and methods used in this study.
+
 ### Setup Instructions
 
 To install all required Python packages, run the following command from the project directory:
